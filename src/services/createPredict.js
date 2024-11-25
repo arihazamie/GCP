@@ -2,6 +2,8 @@ const { Firestore } = require("@google-cloud/firestore");
 const crypto = require("crypto");
 const { formatDate } = require("../utils/dateUtil");
 
+require("dotenv").config();
+
 // Load service account key for Firestore
 const db = new Firestore({
   credentials: {
