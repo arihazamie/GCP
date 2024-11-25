@@ -1,0 +1,4 @@
+/node_modules
+/.app-key.json
+/.env
+/app-service-account.json
