@@ -9,7 +9,7 @@ const initializeModel = require("./src/configs/initializeModel");
 const errorHandler = require("./src/middlewares/errorHandler");
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT;
 
 // Basic route for health check
 app.get("/", (req, res) => {
@@ -27,5 +27,5 @@ initializeModel(app);
 
 // Start the server
 app.listen(port, () => {
-  console.log(`App listening at http://localhost:${port}`);
+   console.log(`App listening at ${port}`);
 });
