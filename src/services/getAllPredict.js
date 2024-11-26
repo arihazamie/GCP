@@ -9,7 +9,7 @@ const db = new Firestore({
     client_email: process.env.CLIENT_EMAIL,
     private_key: process.env.PRIVATE_KEY,
   },
-  projectId: "submissionmlgc-ari",
+  projectId: "submissionmlgc-arihzm",
 });
 const predictCollection = db.collection("predictions");
 
