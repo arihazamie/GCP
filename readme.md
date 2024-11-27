@@ -27,7 +27,7 @@ this endpoint for get allData from Firestore
 
 | Repo |  Link                |
 | :-------- | :------------------------- |
-| `Backend` |  [Frontend](https://github.com/arihazamie/GCP/tree/frontend) |
+| `Frontend` |  [Frontend](https://github.com/arihazamie/GCP/tree/frontend) |
 | `Model` |  [Model](https://github.com/arihazamie/GCP/tree/model) |
 
 ## Environment Variables
