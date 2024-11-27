@@ -23,6 +23,13 @@ this endpoint for cancer detection using a model
 ```
 this endpoint for get allData from Firestore
 
+## Link
+
+| Repo |  Link                |
+| :-------- | :------------------------- |
+| `Backend` |  [Frontend](https://github.com/arihazamie/GCP/tree/frontend) |
+| `Model` |  [Model](https://github.com/arihazamie/GCP/tree/model) |
+
 ## Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file
