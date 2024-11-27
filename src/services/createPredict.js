@@ -23,7 +23,12 @@ const createPredict = async (result, suggestion) => {
   const id = crypto.randomUUID();
   const createdAt = new Date();
 
-  console.log("Creating prediction with:", { id, result, suggestion }); // Debugging log
+  console.log("Creating prediction with:", {
+    id,
+    result,
+    suggestion,
+    createdAt,
+  }); // Debugging log
 
   try {
     await predictCollection.doc(id).set({ id, result, suggestion, createdAt });
